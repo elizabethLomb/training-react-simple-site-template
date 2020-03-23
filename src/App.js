@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route} from 'react-router-dom'
+import Navigation from './misc/Navigation';
+import Home from './components/Home';
+import Injection from './components/Injection';
+import Moldes from './components/Moldes';
+import News from './components/News';
+import Accesories from './components/Accesories';
+import Contact from './components/Contact';
+import ModalNavigation from './misc/ModalNavgations';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation/>
+      <ModalNavigation/>
+
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/injection' component={Injection}/>
+        <Route exact path='/molds' component={Moldes}/>
+        <Route exact path='/news' component={News}/>
+        <Route exact path='/accesories' component={Accesories}/>
+        <Route exact path='/contact' component={Contact}/>
+      </Switch>
     </div>
-  );
+  )
 }
 
 export default App;
