@@ -1,9 +1,10 @@
 import React from 'react';
+import Jumbotron from './UI/Jumbotron';
 
-const Accesories = () => {
+const Accesories = (props) => {
   return(
     <main role="main" className="mainContainer accesoriesContainer">
-      aaaa
+      <Jumbotron {...props}/>
     </main>
   )
 }

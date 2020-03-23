@@ -6,7 +6,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 //import Popper from 'popper'
 
 //estilos
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-reboot.css';
 import './Main.css';
 
 //js

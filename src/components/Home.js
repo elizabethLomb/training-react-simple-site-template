@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Jumbotron from './UI/Jumbotron';
 
-class Home extends Component {
-  render() {
-    return(
-      <main role="main" className="mainContainer homeContainer">
-        <Jumbotron {...this.props}/>
-      </main>
-    )
-  }
+const Home = (props) => {
+  return(
+    <main role="main" className="mainContainer homeContainer">
+      <Jumbotron {...props}/>
+    </main>
+  )
 }
 
 export default Home;

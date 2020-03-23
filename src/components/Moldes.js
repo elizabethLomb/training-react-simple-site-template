@@ -1,9 +1,10 @@
 import React from 'react';
+import Jumbotron from './UI/Jumbotron';
 
-const Moldes = () => {
+const Moldes = (props) => {
   return(
     <main role="main" className="mainContainer modelsContainer">
-      aaaa
+      <Jumbotron {...props}/>
     </main>
   )
 }
