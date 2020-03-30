@@ -13,7 +13,7 @@ const TwoSideBlockFluidRight = (
             </figure>
           </div>
 
-          <p className="mt-4">{text}</p>
+          <p className="p-4">{text}</p>
           <div className="btnBottom row justify-content-lg-start justify-content-center no-gutters pt-3">
             <ButtonBlack type={'link'} text={'Go to Web'} href={href}/>
             {catalog &&

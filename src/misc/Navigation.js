@@ -14,8 +14,8 @@ const Navigation = () => {
       <div className="collapse navbar-collapse" id="navbarToggler">
         <h1>
           <Link to='/' className="navbar-brand">
-          <img width="60px" src="/logo192.png" alt="Simple site Logo"/>
-        </Link>
+            <img width="60px" src="/logo192.png" alt="Simple site Logo"/>
+          </Link>
         </h1>
 
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
