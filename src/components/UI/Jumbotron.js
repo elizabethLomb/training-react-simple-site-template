@@ -7,7 +7,7 @@ const Jumbotron = (props, style) => {
   if(props.match.path === '/'){
     style = 'home'
   } else if(props.match.path === '/molds') {
-    style = 'molds'
+    style = 'introMoldes'
   } else {
     style = 'accesories'
   }
@@ -36,6 +36,11 @@ const Jumbotron = (props, style) => {
             <FontAwesomeIcon icon={faChevronDown}/>
           </span>
         </div>
+      }
+      {props.match.path === '/molds' ?
+        <div className="container"></div>
+      :
+        <div className="container"></div>
       }
     </div>
   )
