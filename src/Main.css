@@ -58,8 +58,8 @@ ul li {
   font-weight: 700;
   transition: all 0.5s;
   background: white;
-  /* background-color: rgba(255, 255, 255, 0.28); */
 }
+.navbar li {font-size: 16px;}
 
 /*paral general*/
 .paral {
@@ -228,6 +228,14 @@ article {
 article .article_txt {
   font-size: 17px;
   line-height: 25px;
+}
+
+/*contact*/
+.contactContainer #map iframe {
+  width: 100%;
+  min-height: 565px;
+  position: absolute;
+  top: 93px;
 }
 
 /*footer*/
