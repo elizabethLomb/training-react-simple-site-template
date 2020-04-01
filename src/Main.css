@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
   margin: 0;
@@ -15,6 +15,7 @@ body {
   background-size: cover;
   background-repeat: repeat-y;
   background-blend-mode: hard-light;
+  font-weight: 300;
 }
 
 a {
@@ -33,7 +34,14 @@ p {
   word-break: break-word;
   word-wrap: break-word;
   width: -webkit-fill-available;
-  font-weight: 100;
+}
+
+ul {
+  font-size: 19px;
+  line-height: 34px;
+}
+ul li {
+  margin-bottom: 10px;
 }
 
 /*buttons*/
@@ -117,13 +125,19 @@ p {
   letter-spacing: 1px;
 }
 
-.introMoldes {
-  background-image: url(https://images.unsplash.com/photo-1493217465235-252dd9c0d632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+.introAccesories, .introMoldes {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 2;
   background-position: center center;
+}
+
+.introMoldes {
+  background-image: url(https://images.unsplash.com/photo-1493217465235-252dd9c0d632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+.introAccesories {
+  background-image: url(https://images.unsplash.com/photo-1514443031610-8c063c7a9822?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 }
 
 .innerSection {

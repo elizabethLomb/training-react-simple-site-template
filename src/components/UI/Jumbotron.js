@@ -9,7 +9,7 @@ const Jumbotron = (props, style) => {
   } else if(props.match.path === '/molds') {
     style = 'introMoldes'
   } else {
-    style = 'accesories'
+    style = 'introAccesories'
   }
 
   return(

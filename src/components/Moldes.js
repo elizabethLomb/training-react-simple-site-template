@@ -10,7 +10,6 @@ const Moldes = (props) => {
       <main role="main" className="mainContainer modelsContainer">
         <Jumbotron {...props}/>
       
-
         <section className="innerSection firstSection pt-4">
           <div className="container text-center pt-4">
             <h2 className="display-3 pt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
