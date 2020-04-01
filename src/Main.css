@@ -44,6 +44,7 @@ ul li {
   margin-bottom: 10px;
 }
 
+
 /*buttons*/
 .btn.focus, .btn:focus {
   outline: 0;
@@ -115,7 +116,7 @@ ul li {
 .paral.home h2 {
   color: white;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   text-shadow: 0 2px #072b56;
   text-transform: uppercase;
 }
@@ -249,7 +250,6 @@ article .article_txt {
   z-index: 2;
   color: white;
   padding-bottom: 30px;
-  margin-top: 70px;
 }
 .mainFooter:before {
   position: absolute;
@@ -263,6 +263,16 @@ article .article_txt {
 .mainFooter a {
   color: white;
 }
+
+/*-------- RESPONSIVE -----------*/
+@media (max-width: 425px) {
+  .paral.home h2 { font-size: 4rem; }
+  .display-4 { font-size: 2.5rem; }
+  .featurette-divider {    margin: 3rem 0;}
+}
+
+/*-------- RESPONSIVE -----------*/
+
 
 /*animacion iconos*/
 .bounce {

@@ -10,6 +10,9 @@ const Navigation = () => {
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
+      <Link to='/' className="navbar-brand d-none d-sm-block d-lg-none">
+        <img width="60px" src="/logo192.png" alt="Simple site Logo"/>
+      </Link>
 
       <div className="collapse navbar-collapse" id="navbarToggler">
         <h1>
