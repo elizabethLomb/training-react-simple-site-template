@@ -2,9 +2,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # React Template Simple Site Open Source & FREE
 
-I share my hobby, this template is FREE and for any type of use for those who may need it, I hope you enjoy it!!
+## I share my hobby, this template is FREE and for any type of use for those who may need it, I hope you enjoy it!!
+
+### Desktop Preview
 
 ![alt text](https://github.com/elizabethLomb/react-simple-site-template/blob/master/homeScream.png "Home Scream")
+
+### Mobile Preview
+
 ![alt text](https://github.com/elizabethLomb/react-simple-site-template/blob/master/homeMobileScream.png "Home Mobile Scream")
 
 ## Available Scripts
