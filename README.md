@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# React Template Simple Site Open Source & FREE
+
+I share my hobby, this template is FREE and for any type of use for those who may need it, I hope you enjoy it!!
+
+![alt text](https://github.com/elizabethLomb/react-simple-site-template/blob/master/homeScream.png "Home Scream")
+![alt text](https://github.com/elizabethLomb/react-simple-site-template/blob/master/homeMobileScream.png "Home Mobile Scream")
+
 ## Available Scripts
 
 In the project directory, you can run:
